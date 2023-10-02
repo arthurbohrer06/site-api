@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: 0;
+}
+.cabeçalho{
+    background-color: #332F2E;
+    width: 100%;
+    display: inline-flex;
+    height: 10vw;
+}
+#logo{
+    width: 15vw;
+    margin-left: 5vw;
+    margin-top: 2VW;
+    padding-right: 4vw;
+}
+.menu{
+    color: white;
+    font-size: 5vw;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 13vw;
+    margin-top: 2.2vw;
+    cursor: pointer;
+}
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    width: 100%;
+    display: grid;
+    text-align: center;
+    overflow: hidden;
+}
+li{
+    width: 45%;
+    list-style: none;
+    display: inline-block;
+    margin-right: 4vw;
+    margin-top: 6vw;
+}
+#lista img{
+    width: 33%;
+    margin-left: 15vw;
+    margin-bottom: 5vw;
+    display: grid;
+}
+#lista{
+    color: aliceblue;
+    margin-left: 2vw;
+    margin-top: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2vw;
+}
+#lista p{
+    width: 30%;
+    font-size: 1vw;
+    text-align: center;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    display: inline-block;
+}
+footer{
+    background-color: #332F2E;
+    width: 100%;
+    display: inline-flex;
+    height: 10vw;
+}
+#sociais{
+    display: inline-block;
+    width: 5vw;
+    margin-left: 22vw;
+    margin-right: 20vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+@media only screen and (max-width: 900px){
+
+#logo{
+    width: 10vw;
+}
+#lista{
+font-size: 2vw;
+}
+#lista p{
+    font-size: 2vw;
+}
+#lista img{
+    width: 50%;
+}
+}
